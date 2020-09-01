@@ -1,18 +1,18 @@
 # heroku
 
-#Install
+-Install
 curl https://cli-assets.heroku.com/install.sh | sh
-#nodjs - necessario
+-nodjs - necessario
 
-# Clone
+-Clone
 git clone https://github.com/repo/porjet.git
 
-#Criando App
+-Criando App
 heroku apps:create appname
-#ou via web
+-ou via web
 
-#Associando repositorio baixado ao app
+-Associando repositorio baixado ao app
 heroku git:remote -a appname
 
-#PUSH
+-PUSH
 git push heroku master
